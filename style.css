@@ -1,0 +1,115 @@
+a {
+  color:black;
+  font-size:43px;
+  border:2px solid black;
+  background-color:#5A98ED
+}
+#picture {
+          margin-left:550px;
+}
+
+ 
+header{
+margin:0;
+width:100%;
+height:10%;
+background:#5A98ED;
+top:0;
+}
+
+section{
+width:100%;
+height:80%;
+background
+}
+
+footer{
+width:100%;
+height:10%;
+background:#5A98ED;
+}
+
+
+h2 { 
+color: blue; 
+}
+
+
+
+.main-menu h2 {
+ text-align: center;
+ font-size: 20pt;
+}
+
+
+
+
+.main-menu li { 
+  border:2px solid black;
+  display: inline-block;
+  background-color: blue;
+  padding: 6px;
+  line-height: 1.6;
+  font-size: 18pt;
+  font-weight: bold;
+}
+
+
+
+.category-menu li {
+}color: blue;
+
+  line-height: 1.5;
+  font-size: 16pt;
+}
+
+
+.main-menu li.active {
+ font-size: 20pt;
+ color: black;
+} 
+
+
+
+.category-menu li.active {
+ font-size: 17pt;
+ color: blue; 
+ font-weight: bold;
+}
+
+
+
+
+
+
+
+.knopk{
+position: relative;
+width: 100x;
+height:530px;
+margin-top: -200px;
+background-color: transparent;
+transform: scale(0.2);
+}
+
+.knopk img {
+position: absolute;
+width: 100%;
+transition: 0.3s;
+}
+
+
+.knopk:hover img:nth-child(2)
+  {transform: translate(0px, -0px)
+}
+.knopk:hover img:nth-child(2) {opacity: 0;
+        filter: alpha(opacity=0);}
+
+
+.knopk:hover img:nth-child(1)
+ {transform: translate(0px, -0px)
+}
+.knopk:hover img:nth-child(1)
+ {opacity: 1.0;
+        filter: alpha(opacity=100);}
+
